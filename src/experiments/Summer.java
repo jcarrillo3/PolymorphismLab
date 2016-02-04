@@ -10,14 +10,12 @@ package experiments;
  * @author Juan
  */
 public class Summer implements Season {
-    private int temperature;
+    private int avgTemperature = 85;
     
-    public void setTemperature(int temperature){
-        this.temperature = temperature;
-    }
     
     @Override
     public int getTemperature() {
-        return 85;
+        System.out.print("Summer ");
+        return avgTemperature;
     }
 }

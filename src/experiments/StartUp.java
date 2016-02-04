@@ -16,7 +16,7 @@ public class StartUp {
         new Fall(), new Winter()};
         
         for (Season s: Seasons){
-            System.out.print( "Temperature: " +s.getTemperature());
+            System.out.println("Temperature: "+ s.getTemperature());
         }
     }
 }

@@ -12,4 +12,5 @@ package experiments;
 public interface Season {
     
     public abstract int getTemperature();
+    
 }
